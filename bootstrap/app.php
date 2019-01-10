@@ -16,6 +16,16 @@ $app = new Illuminate\Foundation\Application(
 );
 
 /*
+This code allow to see your logs using ChromeLogger ( not working )
+ */
+
+//if ($app->environment('local')) {
+//    $app->configureMonologUsing(function ($monolog) {
+//        $monolog->pushHandler(new \Monolog\Handler\ChromePHPHandler());
+//    });
+//}
+
+/*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
 |--------------------------------------------------------------------------
